@@ -7,7 +7,7 @@ This repository contains the code for the following [paper](https://dl.acm.org/a
 ___
 ### Pretrained crosslingual embeddings
 
-We also publish a dataset of pretrained word embeddings in 28 languages, where words are embedded in a shared latent space. The dataset is available [here](https://zenodo.org/record/2562234#.XGLRzs9KifU).
+We also publish a dataset of pretrained word embeddings in 28 languages, where words are embedded in a shared latent space. The dataset is available [here](https://zenodo.org/record/2563381#.XGOHfs9KifU).
 
 ___
 
@@ -17,11 +17,11 @@ If you found the provided resources useful, please cite the above paper. Here's 
 @inproceedings{josifoski-wsdm2019-cr5,
   title={Crosslingual Document Embedding as Reduced-Rank Ridge Regression},
   author={Josifoski, Martin and Paskov, Ivan S. and Paskov, Hristo S. and Jaggi, Martin and West, Robert},
-  booktitle={Proceedings of the Twelft ACM International Conference on Web Search and Data Mining},
+  booktitle={Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining},
   organization={ACM},
   year={2019}
 }
 ```
 ___
 ##### Any questions or suggestions?
-You are welcome to contact me at martin.josifoski@epfl.ch. 
+Contact martin.josifoski@epfl.ch. 
