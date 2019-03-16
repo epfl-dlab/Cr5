@@ -7,7 +7,7 @@ This repository contains the code for the following [paper](https://dl.acm.org/a
 ___
 ### Pretrained crosslingual embeddings
 
-We also publish a dataset of pretrained word embeddings in 28 languages, where words are embedded in a shared latent space. The dataset is available [here](https://zenodo.org/record/2563381#.XGOHfs9KifU).
+We also publish a dataset of pretrained word embeddings in 28 languages, where words are embedded in a shared latent space. The dataset is available [here](https://zenodo.org/record/2595016).
 
 ___
 
