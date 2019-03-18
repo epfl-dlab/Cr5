@@ -68,6 +68,10 @@ ___
 ## Scripts included in the directory and their purpose
 
 #### Python scripts
+* `cr5.py`: Helper library with function that help you easily load the pre-trained models (link on the previous page) and use them.
+
+* `example.py`: Example on how to use the `cr5.py` library.
+
 * `counting_words_per_concepts.py`: As the name implies, this script counts the number of unique words for all articles in a language. The number of words from the full vocabulary that is considered in the counting is passed as an argument. 
 Generates an object that contains the unique word counts for each concept in a given language.
 
