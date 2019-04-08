@@ -1,6 +1,6 @@
 # Cr5
 
-This repository contains the code for the following [paper](https://dl.acm.org/authorize?N676969), which proposes a novel approach of learning crosslingual word embeddings optimized for document level aggregation.
+This repository contains the code for the following [paper](https://infoscience.epfl.ch/record/263893/files/cr5%20paper.pdf), which proposes a novel approach of learning crosslingual word embeddings optimized for document level aggregation.
 
 > "Crosslingual Document Embedding as Reduced-Rank Ridge Regression". Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining. ACM, 2019.
 
