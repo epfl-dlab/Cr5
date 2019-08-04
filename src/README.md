@@ -36,7 +36,7 @@ python setup.py build_ext --inplace
 
 The scripts rely on data being stored according to a certain structure, thus it is essential that the right file paths are entered in the beginning of the `utils.py` script.
 
-In addition to that, if the data directory structure is not already generated, run the script `create_folder_structure.sh` to generate it. The previous needs to be passed the home directory for the data as a parameter. If you haven't updated the parameter in `utils.py`,  run the script using the default parameters by:
+In addition to that, if the data directory structure is not already generated, run the script `create_folder_structure.sh` to generate it. The previous needs to be passed the home directory for the data as a parameter. If you haven't updated the parameter in `utils.py`, run the script using the default parameters by:
 
 ```bash
 ./create_folder_structure.sh ./..
@@ -48,13 +48,13 @@ Download the training and evaluation [data](https://zenodo.org/record/3359814#.X
 
 #### Training, validation and target concept files
 
-Generate training concepts and validation concepts file by running:
+Generate the training and validation concepts files by running:
 
 ```bash
 ./generate_training_validaiton_concepts.sh
 ```
 ___
-Once you have generated the training and validation concepts files, the experiment wrapper should be updated with the desired training/validation dataset files, as well as the training parameters' search range, and sequentially run, using:
+Once you have generated the training and validation concepts files, the experiment wrapper should be updated with the desired training/validation dataset files, as well as the training parameters' search range, and subsequently ran, using:
 ```bash
 python experiment_wrapper.py
 ```
