@@ -4,7 +4,7 @@ import argparse
 import utils
 
 parser = argparse.ArgumentParser(description='Experiment wrapper')
-parser.add_argument("--voc_size", type=int, default=None, help="Size of considered vocabulary")
+parser.add_argument("--voc_size", type=int, default=200000, help="Size of considered vocabulary")
 parser.add_argument("--exp_num", type=int, default=None, help="Experiment number")
 read_params = parser.parse_args()
 
@@ -18,7 +18,7 @@ lang_identifier = '_'.join(lang_codes)
 
 training_concepts_file_name = 'da_en_vi_200000_through_en_lt_50_ut_1000_ml_2'
 
-validation_set_file_name = 'da_en_it_vi_200000_lt_100_ut_700_ml_2_size_2000_inter_false'
+validation_set_file_name = 'da_en_it_vi_200000_lt_100_ut_700_ml_2_size_2000_inter_false_lang_codes_da_en_it_vi'
 
 # casefolded
 case_folding_flag = True

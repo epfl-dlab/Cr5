@@ -13,11 +13,12 @@ except ModuleNotFoundError:
 	print("Execution continues (assuming that error occurred in training)")
 
 
-HOME_DIR_1 = '/dlabdata1/west/crosslingwiki/' # Wikipedia data location
+# HOME_DIR_1 = '/dlabdata1/west/crosslingwiki/' # Wikipedia data location
 
 # HOME_DIR_2 = '/scratch/josifosk/' # Home directory for the intermediate data files and result dumps
 HOME_DIR_2 = './..' # Home directory for the intermediate data files and result dumps
 HOME_DIR_2 = os.path.join(HOME_DIR_2, 'data')
+HOME_DIR_1 = HOME_DIR_2
 
 WORD_INDICES = os.path.join(HOME_DIR_1, 'matlab_input/word_indices')
 SPARSE_MATRICES = os.path.join(HOME_DIR_1, 'matlab_input/sparse_matrices')

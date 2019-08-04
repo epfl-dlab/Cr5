@@ -33,8 +33,8 @@ class Experiment:
 		params = self.params
 		print(params)
 
-		cg_max_iter = params['cg_max_iter'] # Default value 500
-		eigs_max_iter = params['eigs_max_iter'] # Default value 250
+		cg_max_iter = 500
+		eigs_max_iter = 250 
 
 		training_concepts_file_name = params['training_concepts_file_name']
 		validation_set_file_name = params['validation_set_file_name']

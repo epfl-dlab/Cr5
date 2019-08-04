@@ -6,7 +6,7 @@ def get_concept_id_mapping(lang_codes):
     '''Maps the concept id to the article for that concept in English'''
 
     # Path to the interlanguage links file
-    interlanguage_links_file = '/dlabdata1/josifosk/crosslingwiki/interlanguage_links_wikidata-20170720_WITH-INDEX.tsv.gz'
+    interlanguage_links_file = '../data/interlanguage_links_wikidata-20170720_WITH-INDEX.tsv.gz'
     concept_id_concept_name_mapping_per_lang = {}
     concept_name_concept_id_mapping = {}
     
@@ -50,5 +50,5 @@ lang_codes = ['simple', 'en', 'de', 'es', 'it', 'eu', 'ru', 'fr' 'mk', 'nl', 'el
 concept_id_concept_name_mapping, concept_name_concept_id_mapping = get_concept_id_mapping(lang_codes)
 
 
-pickle.dump(concept_id_concept_name_mapping, open('concept_id_concept_name_mapping.p', 'wb'))
-pickle.dump(concept_name_concept_id_mapping, open('concept_name_concept_id_mapping.p', 'wb'))
+pickle.dump(concept_id_concept_name_mapping, open('../data/concept_id_concept_name_mapping.p', 'wb'))
+pickle.dump(concept_name_concept_id_mapping, open('../data/concept_name_concept_id_mapping.p', 'wb'))
