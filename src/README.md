@@ -42,6 +42,10 @@ In addition to that, if the data directory structure is not already generated, r
 ./create_folder_structure.sh ./..
 ```
 
+#### Data
+
+Download the training and evaluation [data](https://zenodo.org/record/3359814#.XUdP85MzZQI). Unzip it in the data folder.
+
 #### Training, validation and target concept files
 
 Generate training concepts and validation concepts file by running:
@@ -61,7 +65,7 @@ The evaluation is done on the cross-lingual document retrieval task. All the det
 
 ### Baseline embeddings
 
-In the experiments we use the state-of-the-art at the time of writing as baseline (details [here](https://arxiv.org/pdf/1710.04087.pdf)). The script `get_baseline_embeddings.sh` is used to retrieve embeddings for a desired language.
+In the experiments we use the state-of-the-art at the time of writing as baseline (details [here](https://arxiv.org/pdf/1710.04087.pdf)). The script `get_baseline_embeddings.sh` is used to retrieve embeddings for a desired language. Alternatively the baseline embeddings that are needed for this paper are available 
 
 *To run the notebook above, make sure you have downloaded the needed baseline embeddings.*
 ___
